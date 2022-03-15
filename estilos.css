@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.card{
+    box-shadow: rgba(119, 99, 107, 0.76) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+ 
+    width: 50vw;
+    height: 70vh;
+     margin: 100px 350px;
+    background-image: url(img/firewatch-video-game-art-minimalism-simple-hd-wallpaper-preview\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+p {
+    margin-top: -40px;
+    font-size: xx-large;
+    padding: 15%;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+.card, #noBtn {
+    position: absolute;
+    /*transform: translate(0%,-2%);*/
+}
